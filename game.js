@@ -120,7 +120,7 @@ var Starfield = function (speed, opacity, numStars, clear) {
   stars.height = Game.height;
   var starCtx = stars.getContext("2d");
 
-  var offset = 0;
+  var offset = 1;
 
   // If the clear option is set,
   // make the background black instead of transparent
